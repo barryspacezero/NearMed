@@ -25,7 +25,7 @@ function App() {
     return (<>
     <div className='flex justify-center bg-blue-300 mt-10'>
     <div className="flex justify-center border-2 bg-white shadow-blue-950 shadow-2xl border-blue-800 w-100 rounded-s-lg">
-    <Auth supabaseClient={supabase} appearance={{ theme: ThemeSupa }} />
+    <Auth supabaseClient={supabase} appearance={{ theme: ThemeSupa }} providers={["google"]} />
     </div>
     </div>
     </>)
