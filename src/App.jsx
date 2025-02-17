@@ -23,9 +23,9 @@ function App() {
 
   if (!session) {
     return (<>
-    <div className='flex justify-center bg-blue-300 mt-22'>
-    <div className="flex justify-center border-2 shadow-blue-400 bg-white inset-shadow-violet-700 shadow-2xl border-blue-800 w-100 rounded-s-lg">
-    <Auth supabaseClient={supabase} appearance={{ theme: ThemeMinimal }} />
+    <div className='flex justify-center bg-blue-300 mt-10'>
+    <div className="flex justify-center border-2 bg-white shadow-blue-950 shadow-2xl border-blue-800 w-100 rounded-s-lg">
+    <Auth supabaseClient={supabase} appearance={{ theme: ThemeSupa }} />
     </div>
     </div>
     </>)
