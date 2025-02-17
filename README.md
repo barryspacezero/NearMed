@@ -71,6 +71,11 @@ NearMed is a simple web app written in **React.js** that helps users find hospit
    - Connect your repository to **Vercel**.
    - Add the required environment variables in Vercel’s dashboard.
    - Deploy and access the live version!
+     
+7. **Screenshots**
+   <img width="927" alt="image" src="https://github.com/user-attachments/assets/fef2374f-a201-42f1-a621-8de746430488" />
+   
+
 
 ## Deployment
 
