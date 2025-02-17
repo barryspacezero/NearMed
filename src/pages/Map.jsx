@@ -119,7 +119,7 @@ function Map() {
     <div className="min-h-screen">
       <div className="p-4 bg-white shadow-md flex justify-evenly  backdrop-blur-2xl">
           <h1 className="text-2xl font-bold text-gray-800">Nearby Hospitals - Displaying hospitals in a 5km radius</h1>
-        <button className='rounded-md text-white bg-blue-500 p-3' onClick={() => supabase.auth.signOut()}>Log out</button>
+        <button className='rounded-md text-white bg-blue-500 p-2' onClick={() => supabase.auth.signOut()}>Log out</button>
         
       </div>
       
